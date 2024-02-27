@@ -1,0 +1,50 @@
+
+<nav class="container1" style="z-index: 1000">
+    <div>
+      <span
+        style="color: white; font-size: 24px; padding: 8px; margin-top: 5px"
+        class="material-icons"
+        >menu</span
+      >
+      <img
+        src="./assets/images/n.png"
+        style="height: 35px; width: 105px; margin-left: 10px; margin-top: 8px"
+      />
+    </div>
+  
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder=" Search" />
+      <div class="search-button-container">
+        <button class="search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+  
+      <div class="mic-button">
+        <span class="mic-icon"
+          ><i class="fa-solid fa-microphone" style="color: white"></i
+        ></span>
+      </div>
+    </div>
+  
+    <div style="display: flex; flex-direction: row;margin-right:40px;">
+      <div class="round-button">
+        <span
+          style="color: white; font-size: 24px; padding: 8px"
+          class="material-icons"
+          >video_call</span
+        >
+      </div>
+  
+      <div class="round-button">
+        <i class="fa-regular fa-bell" style="color: white; font-size: large"></i>
+      </div>
+  
+      <div class="round-button" (click)="dropdownMenu.settingsMenuToggle()">
+        <app-dropdown #dropdownMenu></app-dropdown>
+        <img src={{user.image_url}} style="border-radius: 50%;height: 35px;width: 35px;">
+      </div>
+    
+    </div>
+  </nav>
+  

@@ -1,0 +1,61 @@
+
+<div class="container">
+    <span class="icon"><span class="material-icons">home</span></span>
+    <span class="text"><a routerLink="/">Home</a></span>
+  </div>
+  
+  <div class="container">
+    <span class="icon"><span class="material-icons">music_note</span></span>
+    <span class="text">Shorts</span>
+  </div>
+  
+  <div class="container">
+    <span class="icon"
+      ><span class="material-icons"
+        ><span class="material-symbols-outlined"> subscriptions</span></span
+      ></span
+    >
+    <span class="text"><a routerLink="subscription">Subscriptions</a></span>
+  </div>
+  
+  <hr />
+  
+  <div class="container" style="margin-left: 15px">
+    <span class="text">Atharva Nawathe</span>
+    <span class="icon"><span class="material-icons">chevron_right</span></span>
+  </div>
+  
+  <div class="container">
+    <span class="icon"><span class="material-icons">account_box</span></span>
+    <span class="text">Your channel</span>
+  </div>
+  
+  <div class="container">
+    <span class="icon"><span class="material-icons">history</span></span>
+    <span class="text">History</span>
+  </div>
+  
+  <div class="container">
+    <span class="icon"><span class="material-icons">slideshow</span></span>
+    <span class="text">Your videos</span>
+  </div>
+  
+  <div class="container">
+    <span class="icon"><span class="material-icons">schedule</span></span>
+    <span class="text">Watch later</span>
+  </div>
+
+  <hr />
+  
+  <div class="container">
+    <span class="text" style="font-size: medium">Subscriptions</span>
+  </div>
+  <div *ngFor="let i of subs" style="margin-left: 12px">
+    <div class="container">
+      <img class="logo" src="{{ i.img_srcs }}" />
+      <span class="text">{{ i.name }}</span>
+    </div>
+  </div>
+  
+
+  

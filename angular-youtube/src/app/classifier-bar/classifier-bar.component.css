@@ -1,0 +1,45 @@
+.categories {
+    width: 1250px;
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: fixed;
+    z-index: 5;
+    top:56px;
+    left: 240px;
+  }
+  
+  .rounded-button {
+    padding: 16px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 16.475px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: #272727;
+    margin-right: 12px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .rounded-button:hover {
+    background-color: #464646;
+  }
+  
+  .mic-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  

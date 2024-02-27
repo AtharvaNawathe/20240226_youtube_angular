@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  background-color: #0f0f0f;
+}
+hr {
+  border: none;
+  border-top: 2px solid #2f2f2f;
+  width: 235px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+* {
+  scrollbar-color: gray #0f0f0f;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
